@@ -1,4 +1,5 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <div data-gjs="navbar" class="navbar">
   <div class="navbar-container">
     <a href="/" class="navbar-brand"></a>
@@ -13,7 +14,7 @@
     <div data-gjs="navbar-items" class="navbar-items-c">
       <nav data-gjs="navbar-menu" class="navbar-menu">
         <a href="#" class="navbar-menu-link">Home</a>
-        <a href="#" class="navbar-menu-link">About</a>
+        <a href="#" class="navbar-menu-link">Blogs</a>
         <a href="#" class="navbar-menu-link">Contact</a>
       </nav>
     </div>
@@ -24,42 +25,10 @@
   </b>
 </p>
 <div id="ifwu7">
+  <span id="ilod8">Code efficiently and understand functionality of code.</span>
   <b>
-    <span>Code efficiently and understand functionality of code.</span>
   </b>
 </div>
-<script>var items = document.querySelectorAll('#i9tu');
-  for (var i = 0, len = items.length; i < len; i++) {
-    (function(){
-      var e,t=0,n=function(){
-        var e,t=document.createElement("void"),n={
-          transition:"transitionend",OTransition:"oTransitionEnd",MozTransition:"transitionend",WebkitTransition:"webkitTransitionEnd"};
-        for(e in n)if(void 0!==t.style[e])return n[e]}
-      (),r=function(e){
-        var t=window.getComputedStyle(e),n=t.display,r=(t.position,t.visibility,t.height,parseInt(t["max-height"]));
-        if("none"!==n&&"0"!==r)return e.offsetHeight;
-        e.style.height="auto",e.style.display="block",e.style.position="absolute",e.style.visibility="hidden";
-        var i=e.offsetHeight;
-        return e.style.height="",e.style.display="",e.style.position="",e.style.visibility="",i}
-      ,i=function(e){
-        t=1;
-        var n=r(e),i=e.style;
-        i.display="block",i.transition="max-height 0.25s ease-in-out",i.overflowY="hidden",""==i["max-height"]&&(i["max-height"]=0),0==parseInt(i["max-height"])?(i["max-height"]="0",setTimeout(function(){
-          i["max-height"]=n+"px"}
-,10)):i["max-height"]="0"}
-      ,a=function(r){
-        if(r.preventDefault(),!t){
-          var a=this.closest("[data-gjs=navbar]"),o=a.querySelector("[data-gjs=navbar-items]");
-          i(o),e||(o.addEventListener(n,function(){
-            t=0;
-            var e=o.style;
-            0==parseInt(e["max-height"])&&(e.display="",e["max-height"]="")}
-                                     ),e=1)}
-      };
-      "gjs-collapse"in this||this.addEventListener("click",a),this["gjs-collapse"]=1}
-     .bind(items[i]))();
-  }
-</script>
 <style>
   * {
   box-sizing: border-box;
@@ -67,20 +36,43 @@
 body {
   margin: 0;
 }
+*{
+  box-sizing:border-box;
+}
 body{
-  background-color:#ffffff;
+  margin-top:0px;
+  margin-right:0px;
+  margin-bottom:0px;
+  margin-left:0px;
+  background-color:rgb(255, 255, 255);
 }
 #i5ot{
   text-align:center;
   font-size:52px;
-  border:0 none #ff8c8c;
+  border-top-width:0px;
+  border-right-width:0px;
+  border-bottom-width:0px;
+  border-left-width:0px;
+  border-top-style:none;
+  border-right-style:none;
+  border-bottom-style:none;
+  border-left-style:none;
+  border-top-color:rgb(255, 140, 140);
+  border-right-color:rgb(255, 140, 140);
+  border-bottom-color:rgb(255, 140, 140);
+  border-left-color:rgb(255, 140, 140);
+  border-image-source:initial;
+  border-image-slice:initial;
+  border-image-width:initial;
+  border-image-outset:initial;
+  border-image-repeat:initial;
   float:none;
   display:block;
   position:relative;
   top:197px;
-  background-color:rgba(37,0,0,0);
-  color:#000000;
-  font-family:Lucida Sans Unicode, Lucida Grande, sans-serif;
+  background-color:rgba(37, 0, 0, 0);
+  color:rgb(0, 0, 0);
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 .navbar-items-c{
   display:inline-block;
@@ -88,12 +80,15 @@ body{
 }
 .navbar{
   background-color:rgb(34, 34, 34);
-  color:#dddddd;
+  color:rgb(221, 221, 221);
   min-height:68px;
   width:104%;
   float:left;
   font-size:17px;
-  border-radius:0 0 0 0;
+  border-top-left-radius:0px;
+  border-top-right-radius:0px;
+  border-bottom-right-radius:0px;
+  border-bottom-left-radius:0px;
 }
 .navbar-container{
   max-width:950px;
@@ -171,8 +166,14 @@ body{
   margin-left:0px;
 }
 #ifwu7{
-  padding:0 10px 10px 10px;
-  margin:213px -248px 417px 369px;
+  padding-top:0px;
+  padding-right:10px;
+  padding-bottom:10px;
+  padding-left:10px;
+  margin-top:213px;
+  margin-right:-248px;
+  margin-bottom:417px;
+  margin-left:369px;
   font-family:Verdana, Geneva, sans-serif;
   font-weight:600;
   text-align:justify;
